@@ -1,16 +1,25 @@
-# This is a sample Python script.
+# Esercizi tratti dal libro "Python Crash Course"
 
-# Press Maiusc+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# 2-3: salvare in una variabile un nome e stampare una frase di saluto
+nome = "emilio"
+messaggio = f"Ciao {nome}, come stai oggi? Ti va di imparare un po' di python?" # la sintassi con davanti la f serve a "formattare" inserendo i valori delle variabili
+print(messaggio)
 
+# 2-4: stampare un nome tutto maiuscolo, tutto minuscolo e con l'iniziale maiuscola
+nome = "Matteo"
+print(nome.upper())
+print(nome.lower())
+print(nome.title())
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# 2-5: stampare una citazione
+autore = "Luca Pinciroli"
+frase = "meglio il culo gelato che il gelato nel culo"
+citazione = f'{autore} una volta disse: "{frase}".'
+print(citazione)
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# 2-6: ripulire una stringa dagli spazi indesiderati
+stringa = "\nRoberto \t"
+print(stringa)
+print(stringa.rstrip())
+print(stringa.lstrip())
+print(stringa.strip())
