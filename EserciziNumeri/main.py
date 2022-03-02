@@ -5,5 +5,6 @@ print(2*4)      # prodotto
 print(16/2)     # divisione
 print(2**3)     # potenza
 
+# 2-9: stampo a schermo il mio numero preferito
 numeroPreferito = 34
 print(f"\nIl mio numero preferito è {numeroPreferito}")
