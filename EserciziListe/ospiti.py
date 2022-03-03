@@ -36,12 +36,18 @@ primoSacrificato = listaOspiti.pop()
 secondoSacrificato = listaOspiti.pop()
 terzoSacrificato = listaOspiti.pop()
 quartoSacrificato = listaOspiti.pop()
+quintoSacrificato = listaOspiti.pop()
 print(f"Mi dispiace {primoSacrificato}, purtroppo non ho più posto per ospitarti...")
 print(f"Mi dispiace {secondoSacrificato}, purtroppo non ho più posto per ospitarti...")
 print(f"Mi dispiace {terzoSacrificato}, purtroppo non ho più posto per ospitarti...")
 print(f"Mi dispiace {quartoSacrificato}, purtroppo non ho più posto per ospitarti...")
+print(f"Mi dispiace {quintoSacrificato}, purtroppo non ho più posto per ospitarti...")
 
 print(f"Hey {listaOspiti[0]}, tu sei ancora invitato")
 print(f"Ciao {listaOspiti[1]}, tu sei ancora invitata")
+
+# 3-9: quanti invitati?
+print(f"Sono state invitate {len(listaOspiti)} persone.")
+
 del listaOspiti[0]
 del listaOspiti[1]
